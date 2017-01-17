@@ -47,16 +47,16 @@ public class Fibonacci {
         //Ask the user for the desired element of the Fibonacci sequence.
         System.out.println("Which element of the Fibonacci sequence do you want"
                 + " to know?");
-        System.out.println("The element must be an integer greater"
-                + " than or equal to zero: ");
+        System.out.println("The element must be an integer ranging from"
+                + " 0 to 46: ");
         
         //Get the element from the user.  
         element = user_input.nextInt();
         
         /*Check to make sure that the integer entered by the user is greater
         than or equal to zero.*/
-        if ( element < 0 ) {
-        System.out.println("Only integers greater than or equal to zero please"
+        if ( element < 0 || element > 46 ) {
+        System.out.println("Only integers betwee 0 and 46 please"
                 + ", try again.");
         continue;  // Will continue from the beginning of the do..while loop.
         }

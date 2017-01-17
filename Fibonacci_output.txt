@@ -1,19 +1,19 @@
 run:
 Which element of the Fibonacci sequence do you want to know?
-The element must be an integer greater than or equal to zero: 
-test
+The element must be an integer ranging from 0 to 46: 
+0.55
 Not an integer, try again: java.util.InputMismatchException
 Which element of the Fibonacci sequence do you want to know?
-The element must be an integer greater than or equal to zero: 
-0.6
+The element must be an integer ranging from 0 to 46: 
+risk
 Not an integer, try again: java.util.InputMismatchException
 Which element of the Fibonacci sequence do you want to know?
-The element must be an integer greater than or equal to zero: 
--4
-Only integers greater than or equal to zero please, try again.
+The element must be an integer ranging from 0 to 46: 
+48
+Only integers betwee 0 and 46 please, try again.
 Which element of the Fibonacci sequence do you want to know?
-The element must be an integer greater than or equal to zero: 
-11
+The element must be an integer ranging from 0 to 46: 
+34
 Good job!
-The Fibonacci number at index 11 is 89
-BUILD SUCCESSFUL (total time: 25 seconds)
+The Fibonacci number at index 34 is 5702887
+BUILD SUCCESSFUL (total time: 10 seconds)
